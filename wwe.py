@@ -1,7 +1,3 @@
-Python 2.7.10 (default, May 23 2015, 09:40:32) [MSC v.1500 32 bit (Intel)] on win32
-Type "copyright", "credits" or "license()" for more information.
->>> #IPND Stage 2 Final Porject
-
 blanks=['___0___', '___1___','___2___', '___3___','___4___', '___5___'] 
 
 prompt1 = '''World Wrestling Entertainment is the longets running tv show ran by Vince ___0___. In the year 1997 till the year 2002 WWE was known also by the name ___1___.The most popular era in the wwe was the ___2___ era. Wwe bigest competition in the 90's was ___3___.\n'''
