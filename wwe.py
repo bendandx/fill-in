@@ -25,7 +25,7 @@ def failState(strikes):
 
 def checkAnswer(answer, blank, key):
     """returns True if given answer matches blank"""
-    if answer in key and key.index(answer)==blanks.index(blank):
+    If answer.lower()==key[blank].lower():
         return True
     else:
         return False
