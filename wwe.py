@@ -46,7 +46,7 @@ def playAgain():
 def quizzer(prompt, key):
     """presents prompt and accepts answers, returns True if player is successful, otherwise False"""
     strike, blank=0, 0
-    for i in key:
+    for index in key:
         print prompt
         answer=raw_input("Your answer: ").lower()
         while checkAnswer(answer, blank, key)==false:
