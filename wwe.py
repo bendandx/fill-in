@@ -49,7 +49,7 @@ def quizzer(prompt, key):
     for i in key:
         print prompt
         answer=raw_input("Your answer: ").lower()
-        while checkAnswer(answer, blankTranslator(blank), key)==False:
+        while checkAnswer(answer, blank, key)==false:
             strike+=1
             print "strike %d!" %strike
             if failState(strike)==True:
