@@ -18,7 +18,8 @@ def difficultySelector():
 
 def failState(strikes):
     """checks if player has used allotted strikes"""
-    if strikes>=3:
+    Max_allowed_tries=0
+    if strikes>=Max_allowed_tries:
         return True
     return False
 
